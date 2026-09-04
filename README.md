@@ -27,6 +27,19 @@ The **Exception Control Center** creates a shared operational queue that:
 - [Data and controls](docs/DATA_AND_CONTROLS.md) — conceptual model, control rules, and data-quality expectations.
 - [SQL validation logic](sql/validation_checks.sql) — illustrative checks for settlement, collateral, recalls, fees, and stale exceptions.
 - [UAT plan](docs/UAT_PLAN.md) — test approach, entry/exit criteria, scenarios, and traceability.
+- [Runnable SQLite controls](sql/runnable_demo.sql) — schema, synthetic records, and executable control views.
+- [Interactive dashboard source](dashboard/) — responsive Sites application for exception triage.
+- [Offline dashboard](offline/index.html) — self-contained edition requiring no installation or internet connection.
+
+## Dashboard editions
+
+| Edition | Use case | Access |
+|---|---|---|
+| Hosted dashboard | Portfolio demonstration and sharing | [Open hosted site](https://agency-lending-exception-center.eskstrom.chatgpt.site) |
+| Offline dashboard | Interviews, travel, or restricted networks | Download and open `offline/index.html` |
+| Local development | Extend or customize the product | Run the application in `dashboard/` |
+
+All editions use hypothetical workflows and synthetic records. No confidential or production data is included.
 
 ## Lifecycle at a glance
 
