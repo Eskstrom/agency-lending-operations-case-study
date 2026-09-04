@@ -41,6 +41,18 @@ The **Exception Control Center** creates a shared operational queue that:
 
 All editions use hypothetical workflows and synthetic records. No confidential or production data is included.
 
+## Dashboard previews
+
+Desktop overview:
+
+![Exception Control Center desktop dashboard](docs/images/dashboard-desktop.png)
+
+Mobile layout:
+
+<img src="docs/images/dashboard-mobile.png" alt="Exception Control Center mobile dashboard" width="390">
+
+The dashboard is a static demonstration using synthetic data. It has no production connections, authentication flow, or persistent data store.
+
 ## Lifecycle at a glance
 
 ```mermaid
@@ -84,4 +96,8 @@ flowchart LR
 - Dates, thresholds, service levels, and field names are illustrative.
 - The design is market- and venue-agnostic; production rules would require legal, compliance, tax, credit, and operations approval.
 - SQL uses broadly PostgreSQL-compatible syntax and a simplified conceptual schema.
+
+## Security
+
+Please report suspected vulnerabilities privately as described in [SECURITY.md](SECURITY.md). Do not include sensitive information in a public issue.
 
