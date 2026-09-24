@@ -101,3 +101,23 @@ flowchart LR
 
 Please report suspected vulnerabilities privately as described in [SECURITY.md](SECURITY.md). Do not include sensitive information in a public issue.
 
+
+<!-- portfolio-future-plans:start -->
+## Future plans and PRD direction
+
+*Planning review: 24 September 2026. These are proposed next steps, not completed work or measured outcomes.*
+
+**Priority recommendation:** Retain as secondary transferable evidence.
+
+Preserve the SQL, requirements, exception controls and UAT work as a fintech operations case.
+
+### Next scope
+
+- [ ] Keep the hypothetical domain and synthetic dashboard clearly labeled.
+- [ ] Map a concise set of requirements to control queries, exception behavior and UAT evidence.
+- [ ] Feature this selectively for operations/platform roles rather than placing it under a healthcare-specific headline.
+
+### Validation and decision criteria
+
+Demonstrate a reproducible synthetic exception and its review/closure path. Preserve illustrative-target labels and avoid converting them into claimed business results.
+<!-- portfolio-future-plans:end -->
